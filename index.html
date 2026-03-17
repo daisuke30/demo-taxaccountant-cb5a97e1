@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>須田税理士事務所 | 大阪市中央区の税理士事務所</title>
-    <meta name="description" content="大阪市中央区にある須田税理士事務所。法人税務、個人確定申告、相続税対策まで幅広くサポート。お気軽にご相談ください。">
-    <link rel="stylesheet" href="style.css">
+    <title>須田税理士事務所 | 大阪の税務・会計のプロフェッショナル</title>
+    <meta name="description" content="大阪市中央区の須田税理士事務所。法人税務、個人確定申告、相続税対策まで幅広くサポート。経験豊富な税理士がお客様の課題を解決します。">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <!-- ヘッダー -->
@@ -17,10 +19,10 @@
                 </div>
                 <nav class="nav">
                     <ul class="nav-list">
-                        <li><a href="#services">サービス</a></li>
-                        <li><a href="#strengths">選ばれる理由</a></li>
-                        <li><a href="#about">事務所概要</a></li>
-                        <li><a href="#contact" class="nav-cta">お問い合わせ</a></li>
+                        <li><a href="#services" class="nav-link">サービス</a></li>
+                        <li><a href="#strengths" class="nav-link">選ばれる理由</a></li>
+                        <li><a href="#office" class="nav-link">事務所概要</a></li>
+                        <li><a href="#contact" class="cta-button">お問い合わせ</a></li>
                     </ul>
                 </nav>
                 <div class="mobile-menu-toggle">
@@ -34,29 +36,25 @@
 
     <!-- メインビジュアル -->
     <section class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
         <div class="container">
             <div class="hero-content">
-                <div class="hero-text">
-                    <h2 class="hero-title">
-                        税務のプロフェッショナルが<br>
-                        <span class="highlight">あなたのビジネスを支える</span>
-                    </h2>
-                    <p class="hero-description">
-                        大阪市中央区にある須田税理士事務所では、法人税務から個人確定申告、相続税対策まで、
-                        お客様の多様なニーズにお応えしています。確かな知識と経験で、安心のサポートを提供します。
-                    </p>
-                    <div class="hero-cta">
-                        <a href="#contact" class="btn btn-primary">無料相談のお申し込み</a>
-                        <a href="tel:06-6940-0841" class="btn btn-secondary">
-                            <span class="phone-icon">📞</span>
-                            06-6940-0841
-                        </a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <div class="hero-placeholder">
-                        <span>税理士事務所イメージ</span>
-                    </div>
+                <h2 class="hero-title">
+                    <span class="hero-title-main">信頼と実績で支える</span>
+                    <span class="hero-title-sub">税務・会計のプロフェッショナル</span>
+                </h2>
+                <p class="hero-description">
+                    大阪市中央区の須田税理士事務所では、法人・個人のお客様の税務課題を<br>
+                    豊富な経験と専門知識で解決いたします。お気軽にご相談ください。
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="cta-button primary">無料相談のお申し込み</a>
+                    <a href="tel:06-6940-0841" class="cta-button secondary">
+                        <i class="fas fa-phone"></i>
+                        06-6940-0841
+                    </a>
                 </div>
             </div>
         </div>
@@ -66,51 +64,62 @@
     <section id="services" class="services">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">サービス内容</h2>
-                <p class="section-subtitle">お客様のニーズに合わせた幅広いサービスを提供しています</p>
+                <h2 class="section-title">サービス紹介</h2>
+                <p class="section-description">お客様のニーズに合わせた幅広いサービスを提供いたします</p>
             </div>
             <div class="services-grid">
                 <div class="service-card">
-                    <div class="service-icon">🏢</div>
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
                     <h3 class="service-title">法人税務</h3>
                     <p class="service-description">
-                        月次監査から決算書作成、税務申告まで、法人の税務業務を包括的にサポートします。
-                        節税対策のアドバイスも行います。
+                        法人税申告、消費税申告、事業税申告など、法人のあらゆる税務手続きをサポート。月次監査から年次決算まで一貫してお任せください。
                     </p>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">👤</div>
+                    <div class="service-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
                     <h3 class="service-title">個人確定申告</h3>
                     <p class="service-description">
-                        給与所得者の医療費控除から自営業者の青色申告まで、個人の確定申告を丁寧にサポートします。
+                        個人事業主の方の所得税確定申告、住民税申告をはじめ、副業収入や不動産所得の申告も丁寧にサポートいたします。
                     </p>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">🏠</div>
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
                     <h3 class="service-title">相続税対策</h3>
                     <p class="service-description">
-                        相続税の申告・納税から事前の相続税対策まで、相続に関する税務を専門的にサポートします。
+                        相続税申告、相続税対策、事業承継など、お客様の大切な財産を次世代へ円滑に承継するためのサポートをいたします。
                     </p>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">💼</div>
-                    <h3 class="service-title">起業支援</h3>
+                    <div class="service-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3 class="service-title">会計業務</h3>
                     <p class="service-description">
-                        新規開業・法人設立の手続きから、創業融資のサポートまで、起業を総合的にバックアップします。
+                        帳簿記帳、試算表作成、決算書作成など、日々の会計業務から決算まで、正確で迅速な処理でお客様をサポートします。
                     </p>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">📊</div>
-                    <h3 class="service-title">経営コンサルティング</h3>
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="service-title">経営サポート</h3>
                     <p class="service-description">
-                        財務分析や経営改善提案など、税務の枠を超えた経営支援サービスを提供します。
+                        経営計画の策定、資金調達支援、税務コンサルティングなど、経営者の良きパートナーとして事業発展をサポートします。
                     </p>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">📋</div>
-                    <h3 class="service-title">記帳代行</h3>
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3 class="service-title">各種申請・届出</h3>
                     <p class="service-description">
-                        日々の取引記録から帳簿作成まで、お客様の経理業務を効率化するサポートを行います。
+                        法人設立届、青色申告承認申請書、給与支払事務所等開設届など、各種申請・届出手続きを代行いたします。
                     </p>
                 </div>
             </div>
@@ -121,82 +130,79 @@
     <section id="strengths" class="strengths">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">須田税理士事務所が選ばれる理由</h2>
-                <p class="section-subtitle">お客様に信頼される3つの強み</p>
+                <h2 class="section-title">選ばれる理由</h2>
+                <p class="section-description">須田税理士事務所が多くのお客様に選ばれる3つの理由</p>
             </div>
             <div class="strengths-grid">
                 <div class="strength-card">
                     <div class="strength-number">01</div>
-                    <div class="strength-content">
-                        <h3 class="strength-title">豊富な経験と専門知識</h3>
-                        <p class="strength-description">
-                            長年にわたる税務実務の経験と、常に最新の税制改正に対応した専門知識で、
-                            お客様の多様な課題を解決します。
-                        </p>
-                    </div>
+                    <h3 class="strength-title">豊富な経験と実績</h3>
+                    <p class="strength-description">
+                        長年にわたり多くの企業・個人のお客様の税務業務をサポートしてきた豊富な実績があります。様々な業種・規模のお客様に対応した経験を活かし、最適な解決策をご提案いたします。
+                    </p>
                 </div>
                 <div class="strength-card">
                     <div class="strength-number">02</div>
-                    <div class="strength-content">
-                        <h3 class="strength-title">迅速で丁寧な対応</h3>
-                        <p class="strength-description">
-                            お客様からのご相談やお問い合わせには迅速にお答えし、
-                            一つ一つの案件を丁寧に対応いたします。
-                        </p>
-                    </div>
+                    <h3 class="strength-title">きめ細かなサポート</h3>
+                    <p class="strength-description">
+                        お客様一人ひとりの状況に合わせたオーダーメイドのサービスを提供。定期的なコミュニケーションを大切にし、疑問や不安を解消しながら、安心してお任せいただける関係性を築きます。
+                    </p>
                 </div>
                 <div class="strength-card">
                     <div class="strength-number">03</div>
-                    <div class="strength-content">
-                        <h3 class="strength-title">アクセス良好な立地</h3>
-                        <p class="strength-description">
-                            大阪市中央区の好立地にあり、各線からのアクセスが良好です。
-                            お気軽にお越しいただけます。
-                        </p>
-                    </div>
+                    <h3 class="strength-title">迅速・正確な対応</h3>
+                    <p class="strength-description">
+                        最新の税制改正情報を常にキャッチアップし、正確で迅速な処理を心がけています。急な相談やお困りごとにも柔軟に対応し、お客様のビジネスの速度に合わせたサポートを提供します。
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- 事務所概要 -->
-    <section id="about" class="about">
+    <section id="office" class="office">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">事務所概要</h2>
             </div>
-            <div class="about-content">
-                <div class="about-info">
-                    <div class="info-item">
-                        <h3 class="info-title">事務所名</h3>
-                        <p class="info-text">須田税理士事務所</p>
-                    </div>
-                    <div class="info-item">
-                        <h3 class="info-title">所在地</h3>
-                        <p class="info-text">
-                            〒540-0008<br>
-                            大阪市中央区大手前1丁目7番31号<br>
-                            OMMビル11階（8階分室）
-                        </p>
-                    </div>
-                    <div class="info-item">
-                        <h3 class="info-title">電話番号</h3>
-                        <p class="info-text">
-                            <a href="tel:06-6940-0841">06-6940-0841</a>
-                        </p>
-                    </div>
-                    <div class="info-item">
-                        <h3 class="info-title">営業時間</h3>
-                        <p class="info-text">
-                            平日 9:00～17:00<br>
-                            ※土日祝日は事前予約制
-                        </p>
+            <div class="office-content">
+                <div class="office-info">
+                    <h3 class="office-name">須田税理士事務所</h3>
+                    <div class="office-details">
+                        <div class="office-detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>所在地</strong>
+                                <p>〒540-0008<br>大阪市中央区大手前1丁目7番31号<br>OMMビル11階（8階分室）</p>
+                            </div>
+                        </div>
+                        <div class="office-detail">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>電話番号</strong>
+                                <p><a href="tel:06-6940-0841">06-6940-0841</a></p>
+                            </div>
+                        </div>
+                        <div class="office-detail">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>営業時間</strong>
+                                <p>平日 9:00～18:00<br>（土日祝日は事前予約制）</p>
+                            </div>
+                        </div>
+                        <div class="office-detail">
+                            <i class="fas fa-train"></i>
+                            <div>
+                                <strong>アクセス</strong>
+                                <p>京阪「天満橋駅」徒歩5分<br>大阪メトロ谷町線「天満橋駅」徒歩5分<br>JR東西線「大阪天満宮駅」徒歩10分</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="about-map">
+                <div class="office-map">
                     <div class="map-placeholder">
-                        <span>アクセスマップ</span>
-                        <p>大阪市営地下鉄・京阪「天満橋駅」より徒歩5分</p>
+                        <i class="fas fa-map"></i>
+                        <p>Google Maps</p>
                     </div>
                 </div>
             </div>
@@ -208,62 +214,51 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">お問い合わせ</h2>
-                <p class="section-subtitle">お気軽にご相談ください。初回相談は無料です。</p>
+                <p class="section-description">まずはお気軽にご相談ください。初回相談は無料です。</p>
             </div>
             <div class="contact-content">
                 <div class="contact-info">
-                    <h3>まずはお電話でお気軽に</h3>
-                    <div class="phone-contact">
+                    <h3>お電話でのお問い合わせ</h3>
+                    <div class="phone-info">
                         <a href="tel:06-6940-0841" class="phone-number">06-6940-0841</a>
-                        <p class="phone-hours">受付時間: 平日 9:00～17:00</p>
-                    </div>
-                    <div class="contact-benefits">
-                        <h4>初回相談で対応できること</h4>
-                        <ul>
-                            <li>税務に関するご質問・ご相談</li>
-                            <li>サービス内容・料金のご説明</li>
-                            <li>お客様の状況に応じた最適なプランのご提案</li>
-                        </ul>
+                        <p>平日 9:00～18:00</p>
                     </div>
                 </div>
-                <div class="contact-form">
-                    <form class="form">
-                        <div class="form-group">
-                            <label for="name" class="form-label">お名前 <span class="required">*</span></label>
-                            <input type="text" id="name" name="name" class="form-input" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="company" class="form-label">会社名・事業所名</label>
-                            <input type="text" id="company" name="company" class="form-input">
-                        </div>
-                        <div class="form-group">
-                            <label for="email" class="form-label">メールアドレス <span class="required">*</span></label>
-                            <input type="email" id="email" name="email" class="form-input" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone" class="form-label">電話番号</label>
-                            <input type="tel" id="phone" name="phone" class="form-input">
-                        </div>
-                        <div class="form-group">
-                            <label for="service" class="form-label">ご相談内容</label>
-                            <select id="service" name="service" class="form-select">
-                                <option value="">選択してください</option>
-                                <option value="法人税務">法人税務</option>
-                                <option value="個人確定申告">個人確定申告</option>
-                                <option value="相続税対策">相続税対策</option>
-                                <option value="起業支援">起業支援</option>
-                                <option value="経営コンサルティング">経営コンサルティング</option>
-                                <option value="記帳代行">記帳代行</option>
-                                <option value="その他">その他</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="message" class="form-label">詳細・ご質問 <span class="required">*</span></label>
-                            <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-full">送信する</button>
-                    </form>
-                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">お名前 *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">会社名・団体名</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">メールアドレス *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">電話番号</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">お問い合わせ内容 *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">選択してください</option>
+                            <option value="法人税務">法人税務について</option>
+                            <option value="個人確定申告">個人確定申告について</option>
+                            <option value="相続税対策">相続税対策について</option>
+                            <option value="会計業務">会計業務について</option>
+                            <option value="経営サポート">経営サポートについて</option>
+                            <option value="その他">その他</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">詳細・ご質問 *</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="具体的なご相談内容をお聞かせください"></textarea>
+                    </div>
+                    <button type="submit" class="cta-button primary">送信する</button>
+                </form>
             </div>
         </div>
     </section>
@@ -274,18 +269,14 @@
             <div class="footer-content">
                 <div class="footer-info">
                     <h3>須田税理士事務所</h3>
-                    <p>
-                        〒540-0008<br>
-                        大阪市中央区大手前1丁目7番31号<br>
-                        OMMビル11階（8階分室）
-                    </p>
+                    <p>〒540-0008 大阪市中央区大手前1丁目7番31号 OMMビル11階（8階分室）</p>
                     <p>TEL: <a href="tel:06-6940-0841">06-6940-0841</a></p>
                 </div>
                 <div class="footer-nav">
                     <ul>
                         <li><a href="#services">サービス</a></li>
                         <li><a href="#strengths">選ばれる理由</a></li>
-                        <li><a href="#about">事務所概要</a></li>
+                        <li><a href="#office">事務所概要</a></li>
                         <li><a href="#contact">お問い合わせ</a></li>
                     </ul>
                 </div>
@@ -297,25 +288,46 @@
     </footer>
 
     <script>
-        // モバイルメニュー
-        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-        const nav = document.querySelector('.nav');
-        
-        mobileMenuToggle.addEventListener('click', () => {
-            nav.classList.toggle('active');
-            mobileMenuToggle.classList.toggle('active');
-        });
-        
-        // スムーススクロール
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
+        // モバイルメニューの実装
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+            const nav = document.querySelector('.nav');
+            const navLinks = document.querySelectorAll('.nav-link, .cta-button');
+
+            mobileMenuToggle.addEventListener('click', function() {
+                nav.classList.toggle('active');
+                mobileMenuToggle.classList.toggle('active');
+            });
+
+            // スムーススクロールの実装
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href.startsWith('#')) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            const headerHeight = document.querySelector('.header').offsetHeight;
+                            const targetPosition = target.offsetTop - headerHeight;
+                            window.scrollTo({
+                                top: targetPosition,
+                                behavior: 'smooth'
+                            });
+                        }
+                        // モバイルメニューを閉じる
+                        nav.classList.remove('active');
+                        mobileMenuToggle.classList.remove('active');
+                    }
+                });
+            });
+
+            // ヘッダーの背景色変更
+            window.addEventListener('scroll', function() {
+                const header = document.querySelector('.header');
+                if (window.scrollY > 100) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
                 }
             });
         });
